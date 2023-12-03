@@ -16,7 +16,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="my logo"
-            style={{ width: "80px", height:"60px" }}
+            style={{ width: "80px", height: "60px" }}
           />
         </div>
         {/* menu */}
