@@ -1,5 +1,7 @@
 import React from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -25,13 +27,39 @@ const About = () => {
               What would you do if you had a software expert avaliable at your
               fingertip?
             </p>
-            <div>
-              <a
-                className=" flex justify-between items-center w-full text-gray-300"
-                href="https://www.linkedin.com/in/apoorv27"
-              >
-                Linkedin <FaLinkedin size={30} />
-              </a>
+            <div className="flex gap-5 mt-5 ">
+              <div>
+                <a
+                  className=" flex justify-between items-center w-full text-gray-300"
+                  href="https://www.linkedin.com/in/apoorv27"
+                >
+                  <FaLinkedin size={30} />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" flex justify-between items-center w-full text-gray-300"
+                  href="https://www.github.com/apoorv2766"
+                >
+                  <FaGithub size={30} />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" flex justify-between items-center w-full text-gray-300"
+                  href="https://www.outlook.com/apoorv2766"
+                >
+                  <HiOutlineMail size={30} />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" flex justify-between items-center w-full text-gray-300"
+                  href="https://www.dropbox.com/scl/fi/95bg2980zgvqdm6eshca7/latest_-resume.pdf.pdf?rlkey=txuud31ixf4a3ov6a6fy9yfmd&dl=0"
+                >
+                  <BsFillPersonLinesFill size={30} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
