@@ -8,7 +8,7 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
 import Bootstrap from "../assets/bootstrap.png";
-
+import express from "../assets/expressjs.png"
 const Skills = () => {
   return (
     <div name="skills" className=" bg-[#0a192f] text-gray-300 w-full h-screen">
@@ -45,10 +45,14 @@ const Skills = () => {
             <img className="w-20 mx-auto " src={Node} alt="Node icon" />
             <p className="my-4 ">NODE JS</p>
           </div>
-          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto " src={Mongo} alt="Mongo icon" />
-            <p className="my-4 ">MongoDB</p>
-          </div> */}
+            <p className="my-4 ">MONGO DB</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto " src={express} alt="Mongo icon" />
+            <p className="my-4 ">EXPRESS JS</p>
+          </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto " src={Tailwind} alt="Tailwind icon" />
             <p className="my-4 ">TAILWIND</p>
@@ -66,6 +70,7 @@ const Skills = () => {
             <p className="my-4 ">GITHUB</p>
           </div>
         </div>
+        
       </div>
     </div>
   );
