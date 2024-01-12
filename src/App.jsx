@@ -6,16 +6,17 @@ import About from "./component/About";
 import Skills from "./component/Skills";
 import Work from "./component/Work";
 import Contact from "./component/Contact";
+import { Route, Routes } from "react-router-dom";
+import AllDetails from "./component/AllDetails";
+import WholeDetails from "./component/WholeDetails";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
+      <Routes>
+        <Route path="/details" element={<AllDetails />}></Route>
+        <Route path="/" element={<WholeDetails />}></Route>
+      </Routes>
     </>
   );
 }
