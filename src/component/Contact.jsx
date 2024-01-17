@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center pt-10 items-center p-4 "
+      className="w-full h-screen bg-white flex justify-center pt-10 items-center p-4 "
     >
       <form
         method="POST"
@@ -20,13 +20,13 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
-          <p className="text-gray-300 pt-4 ">
+          <p className="text-[rgb(94,94,98)] pt-4 ">
             //Submit the form below or shoot me on email- apoorv2766@outlook.com
           </p>
         </div>
         <input
           required
-          className="bg-[#ccd6f6] p-1 mt-10"
+          className="bg-[#5e6064] p-1 mt-10"
           type="text"
           name="name"
           id=""
@@ -35,7 +35,7 @@ const Contact = () => {
         />
         <input
           required
-          className="my-2 p-1 bg-[#ccd6f6]"
+          className="my-2 p-1 bg-[#5e6064]"
           type="email"
           name="email"
           id=""
@@ -44,14 +44,15 @@ const Contact = () => {
         />
         <textarea
           required
-          className="bg-[#ccd6f6] p-1"
+          className="bg-[#5e6064] p-1"
           name="message"
           id=""
           placeholder="Message"
           onChange={ChangeHandler}
           rows="8"
         ></textarea>
-          <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-2 my-4 mx-auto flex items-center">
+          <button className="text-black bg-[#70f5a3] border-2 hover:bg-pink-600 hover:border-pink-600
+           px-4 py-2 my-4 mx-auto flex items-center">
             Let's Collaborate
           </button>
         {/* <Link to="/details">
