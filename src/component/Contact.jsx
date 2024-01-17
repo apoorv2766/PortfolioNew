@@ -12,7 +12,7 @@ const Contact = () => {
     >
       <form
         method="POST"
-        // action="https://getform.io/f/3b6a1451-c2fb-4534-87b5-466a43778efb"
+        action="https://getform.io/f/3b6a1451-c2fb-4534-87b5-466a43778efb"
         className="flex flex-col max-w-[600px] w-full"
         onSubmit={submitHandler}
       >
@@ -51,10 +51,10 @@ const Contact = () => {
           onChange={ChangeHandler}
           rows="8"
         ></textarea>
-        <Link to="/details">
           <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-2 my-4 mx-auto flex items-center">
             Let's Collaborate
           </button>
+        <Link to="/details">
         </Link>
       </form>
     </div>
