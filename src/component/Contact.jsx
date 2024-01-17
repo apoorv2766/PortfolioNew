@@ -14,7 +14,7 @@ const Contact = () => {
         method="POST"
         action="https://getform.io/f/3b6a1451-c2fb-4534-87b5-466a43778efb"
         className="flex flex-col max-w-[600px] w-full"
-        onSubmit={submitHandler}
+        // onSubmit={submitHandler}
       >
         <div className="pb-2">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
@@ -54,8 +54,8 @@ const Contact = () => {
           <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-2 my-4 mx-auto flex items-center">
             Let's Collaborate
           </button>
-        <Link to="/details">
-        </Link>
+        {/* <Link to="/details">
+        </Link> */}
       </form>
     </div>
   );
