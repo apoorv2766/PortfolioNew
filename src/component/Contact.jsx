@@ -1,10 +1,6 @@
-import React, { useContext, useState } from "react";
-import { dataContext } from "../Context/ContactContext";
-import { Link } from "react-router-dom";
+import React from "react";
 
 const Contact = () => {
-  const { ChangeHandler, submitHandler, value, data } = useContext(dataContext);
-
   return (
     <div
       name="contact"
@@ -31,7 +27,6 @@ const Contact = () => {
           name="name"
           id=""
           placeholder="Name"
-          onChange={ChangeHandler}
         />
         <input
           required
@@ -40,7 +35,6 @@ const Contact = () => {
           name="email"
           id=""
           placeholder="Email"
-          onChange={ChangeHandler}
         />
         <textarea
           required
@@ -48,13 +42,14 @@ const Contact = () => {
           name="message"
           id=""
           placeholder="Message"
-          onChange={ChangeHandler}
           rows="8"
         ></textarea>
-          <button className="text-black bg-[#70f5a3] border-2 hover:bg-pink-600 hover:border-pink-600
-           px-4 py-2 my-4 mx-auto flex items-center">
-            Let's Collaborate
-          </button>
+        <button
+          className="text-black bg-[#70f5a3] border-2 hover:bg-pink-600 hover:border-pink-600
+           px-4 py-2 my-4 mx-auto flex items-center"
+        >
+          Let's Collaborate
+        </button>
         {/* <Link to="/details">
         </Link> */}
       </form>
