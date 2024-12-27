@@ -55,7 +55,7 @@ const About = () => {
               <div>
                 <a
                   className=" flex justify-between items-center w-full text-gray-300"
-                  href="https://www.dropbox.com/scl/fi/bbsysedaexlufck7rmp8f/latestResume.pdf?rlkey=508ooovfhthzta24sihyxzbwx&dl=0"
+                  href="https://www.dropbox.com/scl/fi/5vyqy3yc1uqou33wrrqu1/Apoorv-Resume.pdf.pdf?rlkey=85qwbn21kdszuvszml5rb6us9&st=p8lfiqry&dl=0"
                 >
                   <BsFillPersonLinesFill size={30} />
                 </a>
